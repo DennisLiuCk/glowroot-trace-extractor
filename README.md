@@ -20,6 +20,35 @@ A Python tool to extract important JSON data from Glowroot trace HTML files, fil
 
 ## Installation
 
+### Using Python Virtual Environment (Recommended)
+
+1. Create a virtual environment:
+```bash
+python -m venv venv
+```
+
+2. Activate the virtual environment:
+   - **Windows**:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **macOS/Linux**:
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. When finished, deactivate the virtual environment:
+```bash
+deactivate
+```
+
+### Direct Installation (without virtual environment)
+
 ```bash
 pip install -r requirements.txt
 ```
